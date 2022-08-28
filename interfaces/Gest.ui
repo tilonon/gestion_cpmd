@@ -751,7 +751,7 @@ border-bottom-right-radius : 10px;
   <widget class="QStatusBar" name="statusbar"/>
  </widget>
  <resources>
-  <include location="../Documents/photo/icone.qrc"/>
+  <include location="icone.qrc"/>
  </resources>
  <connections/>
 </ui>
