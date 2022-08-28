@@ -1,0 +1,14 @@
+<RCC>
+  <qresource prefix="icone">
+    <file>kisspng-computer-icons-share-icon-accounting-finance-accounting-5b19cbb6db01b8.9545668215284172068971.jpg</file>
+    <file>png-transparent-computer-icons-setting-icon-cdr-svg-setting-icon.png</file>
+    <file>icons8-paramètres-48.png</file>
+    <file>icons8-paramètres-50.png</file>
+    <file>icons8-classe-48.png</file>
+    <file>icons8-classmates-standing-skin-type-4-48.png</file>
+    <file>icons8-comptabilité-16.png</file>
+    <file>icons8-dashboard-60.png</file>
+    <file>icons8-paramètres-30.png</file>
+    <file>icons8-travailleur-48.png</file>
+  </qresource>
+</RCC>
