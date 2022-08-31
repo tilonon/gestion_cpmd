@@ -77,7 +77,7 @@ border-radius :20%;</string>
      </rect>
     </property>
     <property name="currentIndex">
-     <number>5</number>
+     <number>1</number>
     </property>
     <widget class="QWidget" name="page">
      <widget class="QLabel" name="label_5">
@@ -391,7 +391,7 @@ border:none;</string>
       </property>
      </widget>
     </widget>
-    <widget class="QWidget" name="statut">
+    <widget class="QWidget" name="eleves">
      <widget class="QLabel" name="label_26">
       <property name="geometry">
        <rect>
@@ -423,352 +423,6 @@ border:none;</string>
       <property name="text">
        <string/>
       </property>
-     </widget>
-     <widget class="QWidget" name="widget" native="true">
-      <property name="geometry">
-       <rect>
-        <x>450</x>
-        <y>160</y>
-        <width>301</width>
-        <height>221</height>
-       </rect>
-      </property>
-      <widget class="QLabel" name="label_27">
-       <property name="geometry">
-        <rect>
-         <x>10</x>
-         <y>10</y>
-         <width>41</width>
-         <height>21</height>
-        </rect>
-       </property>
-       <property name="styleSheet">
-        <string notr="true">font: 75 14pt &quot;MS Shell Dlg 2&quot;;</string>
-       </property>
-       <property name="text">
-        <string>1er :</string>
-       </property>
-      </widget>
-      <widget class="QLabel" name="label_28">
-       <property name="geometry">
-        <rect>
-         <x>10</x>
-         <y>40</y>
-         <width>61</width>
-         <height>21</height>
-        </rect>
-       </property>
-       <property name="styleSheet">
-        <string notr="true">font: 75 14pt &quot;MS Shell Dlg 2&quot;;</string>
-       </property>
-       <property name="text">
-        <string>2eme :</string>
-       </property>
-      </widget>
-      <widget class="QLabel" name="label_29">
-       <property name="geometry">
-        <rect>
-         <x>10</x>
-         <y>70</y>
-         <width>61</width>
-         <height>21</height>
-        </rect>
-       </property>
-       <property name="styleSheet">
-        <string notr="true">font: 75 14pt &quot;MS Shell Dlg 2&quot;;</string>
-       </property>
-       <property name="text">
-        <string>3eme :</string>
-       </property>
-      </widget>
-      <widget class="QLabel" name="label_30">
-       <property name="geometry">
-        <rect>
-         <x>10</x>
-         <y>100</y>
-         <width>61</width>
-         <height>21</height>
-        </rect>
-       </property>
-       <property name="styleSheet">
-        <string notr="true">font: 75 14pt &quot;MS Shell Dlg 2&quot;;</string>
-       </property>
-       <property name="text">
-        <string>4eme :</string>
-       </property>
-      </widget>
-      <widget class="QLabel" name="label_31">
-       <property name="geometry">
-        <rect>
-         <x>10</x>
-         <y>130</y>
-         <width>61</width>
-         <height>21</height>
-        </rect>
-       </property>
-       <property name="styleSheet">
-        <string notr="true">font: 75 14pt &quot;MS Shell Dlg 2&quot;;</string>
-       </property>
-       <property name="text">
-        <string>5eme :</string>
-       </property>
-      </widget>
-      <widget class="QLabel" name="label_32">
-       <property name="geometry">
-        <rect>
-         <x>10</x>
-         <y>160</y>
-         <width>61</width>
-         <height>21</height>
-        </rect>
-       </property>
-       <property name="styleSheet">
-        <string notr="true">font: 75 14pt &quot;MS Shell Dlg 2&quot;;</string>
-       </property>
-       <property name="text">
-        <string>6eme :</string>
-       </property>
-      </widget>
-      <widget class="QLabel" name="label_33">
-       <property name="geometry">
-        <rect>
-         <x>10</x>
-         <y>190</y>
-         <width>61</width>
-         <height>21</height>
-        </rect>
-       </property>
-       <property name="styleSheet">
-        <string notr="true">font: 75 14pt &quot;MS Shell Dlg 2&quot;;</string>
-       </property>
-       <property name="text">
-        <string>7eme :</string>
-       </property>
-      </widget>
-      <widget class="QLineEdit" name="lineEdit_6">
-       <property name="geometry">
-        <rect>
-         <x>60</x>
-         <y>10</y>
-         <width>101</width>
-         <height>20</height>
-        </rect>
-       </property>
-       <property name="styleSheet">
-        <string notr="true">font: 75 12pt &quot;Times New Roman&quot;;</string>
-       </property>
-       <property name="text">
-        <string>0</string>
-       </property>
-      </widget>
-      <widget class="QLineEdit" name="lineEdit_7">
-       <property name="geometry">
-        <rect>
-         <x>80</x>
-         <y>40</y>
-         <width>81</width>
-         <height>20</height>
-        </rect>
-       </property>
-       <property name="styleSheet">
-        <string notr="true">font: 75 12pt &quot;Times New Roman&quot;;</string>
-       </property>
-       <property name="text">
-        <string>0</string>
-       </property>
-      </widget>
-      <widget class="QLineEdit" name="lineEdit_8">
-       <property name="geometry">
-        <rect>
-         <x>80</x>
-         <y>70</y>
-         <width>81</width>
-         <height>20</height>
-        </rect>
-       </property>
-       <property name="styleSheet">
-        <string notr="true">font: 75 12pt &quot;Times New Roman&quot;;</string>
-       </property>
-       <property name="text">
-        <string>0</string>
-       </property>
-      </widget>
-      <widget class="QLineEdit" name="lineEdit_9">
-       <property name="geometry">
-        <rect>
-         <x>80</x>
-         <y>100</y>
-         <width>81</width>
-         <height>20</height>
-        </rect>
-       </property>
-       <property name="styleSheet">
-        <string notr="true">font: 75 12pt &quot;Times New Roman&quot;;</string>
-       </property>
-       <property name="text">
-        <string>0</string>
-       </property>
-      </widget>
-      <widget class="QLineEdit" name="lineEdit_10">
-       <property name="geometry">
-        <rect>
-         <x>80</x>
-         <y>130</y>
-         <width>81</width>
-         <height>20</height>
-        </rect>
-       </property>
-       <property name="styleSheet">
-        <string notr="true">font: 75 12pt &quot;Times New Roman&quot;;</string>
-       </property>
-       <property name="text">
-        <string>0</string>
-       </property>
-      </widget>
-      <widget class="QLineEdit" name="lineEdit_11">
-       <property name="geometry">
-        <rect>
-         <x>80</x>
-         <y>160</y>
-         <width>81</width>
-         <height>20</height>
-        </rect>
-       </property>
-       <property name="styleSheet">
-        <string notr="true">font: 75 12pt &quot;Times New Roman&quot;;</string>
-       </property>
-       <property name="text">
-        <string>0</string>
-       </property>
-      </widget>
-      <widget class="QLineEdit" name="lineEdit_12">
-       <property name="geometry">
-        <rect>
-         <x>80</x>
-         <y>190</y>
-         <width>81</width>
-         <height>20</height>
-        </rect>
-       </property>
-       <property name="styleSheet">
-        <string notr="true">font: 75 12pt &quot;Times New Roman&quot;;</string>
-       </property>
-       <property name="text">
-        <string>0</string>
-       </property>
-      </widget>
-      <widget class="QLineEdit" name="lineEdit_13">
-       <property name="geometry">
-        <rect>
-         <x>180</x>
-         <y>10</y>
-         <width>101</width>
-         <height>20</height>
-        </rect>
-       </property>
-       <property name="styleSheet">
-        <string notr="true">font: 75 12pt &quot;Times New Roman&quot;;</string>
-       </property>
-       <property name="text">
-        <string/>
-       </property>
-      </widget>
-      <widget class="QLineEdit" name="lineEdit_14">
-       <property name="geometry">
-        <rect>
-         <x>180</x>
-         <y>40</y>
-         <width>101</width>
-         <height>20</height>
-        </rect>
-       </property>
-       <property name="styleSheet">
-        <string notr="true">font: 75 12pt &quot;Times New Roman&quot;;</string>
-       </property>
-       <property name="text">
-        <string/>
-       </property>
-      </widget>
-      <widget class="QLineEdit" name="lineEdit_15">
-       <property name="geometry">
-        <rect>
-         <x>180</x>
-         <y>70</y>
-         <width>101</width>
-         <height>20</height>
-        </rect>
-       </property>
-       <property name="styleSheet">
-        <string notr="true">font: 75 12pt &quot;Times New Roman&quot;;</string>
-       </property>
-       <property name="text">
-        <string/>
-       </property>
-      </widget>
-      <widget class="QLineEdit" name="lineEdit_16">
-       <property name="geometry">
-        <rect>
-         <x>180</x>
-         <y>100</y>
-         <width>101</width>
-         <height>20</height>
-        </rect>
-       </property>
-       <property name="styleSheet">
-        <string notr="true">font: 75 12pt &quot;Times New Roman&quot;;</string>
-       </property>
-       <property name="text">
-        <string/>
-       </property>
-      </widget>
-      <widget class="QLineEdit" name="lineEdit_17">
-       <property name="geometry">
-        <rect>
-         <x>180</x>
-         <y>130</y>
-         <width>101</width>
-         <height>20</height>
-        </rect>
-       </property>
-       <property name="styleSheet">
-        <string notr="true">font: 75 12pt &quot;Times New Roman&quot;;</string>
-       </property>
-       <property name="text">
-        <string/>
-       </property>
-      </widget>
-      <widget class="QLineEdit" name="lineEdit_18">
-       <property name="geometry">
-        <rect>
-         <x>180</x>
-         <y>160</y>
-         <width>101</width>
-         <height>20</height>
-        </rect>
-       </property>
-       <property name="styleSheet">
-        <string notr="true">font: 75 12pt &quot;Times New Roman&quot;;</string>
-       </property>
-       <property name="text">
-        <string/>
-       </property>
-      </widget>
-      <widget class="QLineEdit" name="lineEdit_20">
-       <property name="geometry">
-        <rect>
-         <x>180</x>
-         <y>190</y>
-         <width>101</width>
-         <height>20</height>
-        </rect>
-       </property>
-       <property name="styleSheet">
-        <string notr="true">font: 75 12pt &quot;Times New Roman&quot;;</string>
-       </property>
-       <property name="text">
-        <string/>
-       </property>
-      </widget>
      </widget>
      <widget class="QLabel" name="label_34">
       <property name="geometry">
@@ -818,8 +472,8 @@ border:none;</string>
      <widget class="QLineEdit" name="lineEdit_22">
       <property name="geometry">
        <rect>
-        <x>470</x>
-        <y>410</y>
+        <x>490</x>
+        <y>440</y>
         <width>211</width>
         <height>41</height>
        </rect>
@@ -878,7 +532,7 @@ border:none;</string>
       <property name="geometry">
        <rect>
         <x>180</x>
-        <y>350</y>
+        <y>340</y>
         <width>69</width>
         <height>22</height>
        </rect>
@@ -968,7 +622,7 @@ border:none;</string>
       <property name="geometry">
        <rect>
         <x>100</x>
-        <y>350</y>
+        <y>340</y>
         <width>71</width>
         <height>21</height>
        </rect>
@@ -1012,22 +666,6 @@ border:none;</string>
        <string>Affecté de l'Etat :</string>
       </property>
      </widget>
-     <widget class="QLabel" name="label_39">
-      <property name="geometry">
-       <rect>
-        <x>540</x>
-        <y>90</y>
-        <width>121</width>
-        <height>21</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">font: 75 14pt &quot;MS Shell Dlg 2&quot;;</string>
-      </property>
-      <property name="text">
-       <string>VERSEMENTS</string>
-      </property>
-     </widget>
      <widget class="QLineEdit" name="lineEdit_24">
       <property name="geometry">
        <rect>
@@ -1045,7 +683,7 @@ border:none;</string>
       <property name="geometry">
        <rect>
         <x>260</x>
-        <y>350</y>
+        <y>340</y>
         <width>69</width>
         <height>22</height>
        </rect>
@@ -1154,8 +792,8 @@ border:none;</string>
      <widget class="QPushButton" name="pushButton_7">
       <property name="geometry">
        <rect>
-        <x>550</x>
-        <y>480</y>
+        <x>530</x>
+        <y>500</y>
         <width>111</width>
         <height>51</height>
        </rect>
@@ -1164,27 +802,11 @@ border:none;</string>
        <string>ENREGISTRER</string>
       </property>
      </widget>
-     <widget class="QLabel" name="label_40">
-      <property name="geometry">
-       <rect>
-        <x>510</x>
-        <y>130</y>
-        <width>91</width>
-        <height>21</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">font: 75 14pt &quot;MS Shell Dlg 2&quot;;</string>
-      </property>
-      <property name="text">
-       <string>MONTANT</string>
-      </property>
-     </widget>
      <widget class="QLabel" name="label_41">
       <property name="geometry">
        <rect>
-        <x>330</x>
-        <y>420</y>
+        <x>350</x>
+        <y>450</y>
         <width>131</width>
         <height>21</height>
        </rect>
@@ -1196,12 +818,28 @@ border:none;</string>
        <string>Reste à payer :</string>
       </property>
      </widget>
-     <widget class="QLabel" name="label_42">
+     <widget class="QLineEdit" name="lineEdit_20">
       <property name="geometry">
        <rect>
-        <x>650</x>
-        <y>130</y>
-        <width>51</width>
+        <x>180</x>
+        <y>380</y>
+        <width>261</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 75 15pt &quot;Times New Roman&quot;;</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_39">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>380</y>
+        <width>131</width>
         <height>21</height>
        </rect>
       </property>
@@ -1209,11 +847,27 @@ border:none;</string>
        <string notr="true">font: 75 14pt &quot;MS Shell Dlg 2&quot;;</string>
       </property>
       <property name="text">
-       <string>DATE</string>
+       <string>1er versement :</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_27">
+      <property name="geometry">
+       <rect>
+        <x>180</x>
+        <y>-10</y>
+        <width>421</width>
+        <height>111</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 75 25pt &quot;MS Shell Dlg 2&quot;;</string>
+      </property>
+      <property name="text">
+       <string>ENREGISTREMENT D'ELEVE</string>
       </property>
      </widget>
     </widget>
-    <widget class="QWidget" name="liste">
+    <widget class="QWidget" name="classe">
      <widget class="QTableWidget" name="tableWidget">
       <property name="geometry">
        <rect>
@@ -1354,7 +1008,7 @@ border:none;</string>
       </column>
       <column>
        <property name="text">
-        <string>matricule</string>
+        <string>code</string>
        </property>
       </column>
      </widget>
@@ -1378,7 +1032,7 @@ border:none;</string>
       <property name="geometry">
        <rect>
         <x>170</x>
-        <y>20</y>
+        <y>30</y>
         <width>51</width>
         <height>21</height>
        </rect>
@@ -1395,7 +1049,7 @@ font: 75 12pt &quot;MS Shell Dlg 2&quot;;</string>
       <property name="geometry">
        <rect>
         <x>220</x>
-        <y>20</y>
+        <y>30</y>
         <width>69</width>
         <height>22</height>
        </rect>
@@ -1480,7 +1134,7 @@ font: 75 12pt &quot;MS Shell Dlg 2&quot;;</string>
       <property name="geometry">
        <rect>
         <x>170</x>
-        <y>50</y>
+        <y>60</y>
         <width>51</width>
         <height>21</height>
        </rect>
@@ -1497,7 +1151,7 @@ font: 75 12pt &quot;MS Shell Dlg 2&quot;;</string>
       <property name="geometry">
        <rect>
         <x>220</x>
-        <y>50</y>
+        <y>60</y>
         <width>69</width>
         <height>22</height>
        </rect>
@@ -1607,7 +1261,7 @@ font: 75 12pt &quot;MS Shell Dlg 2&quot;;</string>
       <property name="geometry">
        <rect>
         <x>100</x>
-        <y>80</y>
+        <y>90</y>
         <width>111</width>
         <height>21</height>
        </rect>
@@ -1624,7 +1278,7 @@ font: 75 12pt &quot;MS Shell Dlg 2&quot;;</string>
       <property name="geometry">
        <rect>
         <x>220</x>
-        <y>80</y>
+        <y>90</y>
         <width>69</width>
         <height>22</height>
        </rect>
@@ -1644,7 +1298,7 @@ font: 75 12pt &quot;MS Shell Dlg 2&quot;;</string>
       <property name="geometry">
        <rect>
         <x>320</x>
-        <y>40</y>
+        <y>60</y>
         <width>75</width>
         <height>23</height>
        </rect>
